@@ -25,6 +25,7 @@ public class ChangeCameraButton : MonoBehaviour
         button = frame.Q<Button>("Button");
         // create event listener that calls ChangeCamera() when pressed
         button.RegisterCallback<ClickEvent>(ev => ChangeCamera());
+        Debug.Log(Cameras.Count);
     }
 
     // initialize click count
@@ -32,6 +33,7 @@ public class ChangeCameraButton : MonoBehaviour
     private void ChangeCamera(){
         EnableCamera(click);
         click = (click + 1) % Cameras.Count;
+        Debug.Log(click);
     }
 
     private void EnableCamera(int n)
