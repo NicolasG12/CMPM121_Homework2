@@ -1,8 +1,13 @@
 # Object List
-- Unity Chan!
-- Dog Knight
+- unitychan
+- DogKnight
 - Rabbit 
-- Purple Tree
 - Bear
 - Fox
-- Terrain 
+- Terrain
+- Purple Tree 
+- Rock_03
+- Rock_04
+- Red Dragon
+- Wolf
+- Tiger
