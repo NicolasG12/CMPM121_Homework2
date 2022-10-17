@@ -9,13 +9,12 @@ public class CameraMovement : MonoBehaviour
     {
        
     }
-    public Transform target;
-    private float[] origin = {13f, 0.5f, 10.5f};
-    // private float[] ending = {}
-    private float movementSpeed = 0.2f;
+    private float timer = 0f;
     // Update is called once per frame
     void Update() {
-        transform.position += new Vector3(-movementSpeed * Time.deltaTime, 0, movementSpeed* Time.deltaTime);
+        timer += Time.deltaTime;
+        float distance = Mathf.Sin(2 * timer) / 10f;
+        transform.position += new Vector3(-distance, 0, distance);
         
     }
 }
