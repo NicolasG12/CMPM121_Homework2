@@ -25,7 +25,7 @@ Material:
   m_ValidKeywords:
   - _EMISSION
   m_InvalidKeywords: []
-  m_LightmapFlags: 1
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -45,7 +45,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 5, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
         m_Texture: {fileID: 0}
@@ -56,7 +56,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 94b06e4d656166946a24df75ee7ac7a1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -134,7 +134,7 @@ Material:
     - _Color1: {r: 0.20588237, g: 0.20588237, b: 0.20588237, a: 1}
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
     - _DotColor: {r: 0.9488844, g: 1, b: 0.4705882, a: 1}
-    - _EmissionColor: {r: 0.36078432, g: 0.36078432, b: 0.6901961, a: 1}
+    - _EmissionColor: {r: 0.5743352, g: 1.420834, b: 5.3403134, a: 1}
     - _RootColor: {r: 0.9843137, g: 0.87058824, b: 0.69803923, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _TopColor: {r: 1, g: 0, b: 0.26896572, a: 1}
