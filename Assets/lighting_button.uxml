@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement style="align-items: flex-start; justify-content: flex-end; flex-direction: row-reverse;">
+        <ui:Button text="Decrease Brightness" display-tooltip-when-elided="true" name="Button1" style="width: 170px; height: 87px; white-space: nowrap; background-color: rgba(0, 0, 0, 255);" />
+        <ui:Button text="Increase Brightness" display-tooltip-when-elided="true" name="Button0" style="width: 170px; height: 87px; white-space: nowrap; background-color: rgb(255, 255, 255); color: rgba(0, 0, 0, 255);" />
+    </ui:VisualElement>
+</ui:UXML>

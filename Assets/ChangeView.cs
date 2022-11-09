@@ -5,9 +5,7 @@ using UnityEngine;
 public class ChangeView : MonoBehaviour
 {
     //list of objects to look at
-    public GameObject[] targets;
-    private int currentTarget = 0;
-    private float timer = 0;
+    private float timer = 0f;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,10 +15,10 @@ public class ChangeView : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.LookAt(targets[currentTarget].transform.position);
-        timer += Time.deltaTime;
-        if(timer % 5 <= 0.1) {
-            currentTarget++;
+        if(isActiveAndEnabled) {
+        timer += Time.deltaTime / 2.5f;
+        float distance = Mathf.Sin(timer) / 10f;
+        transform.Rotate(0, distance, 0, Space.Self);
         }
     }
 }
